@@ -4,10 +4,10 @@
 # to view the ARP attributes list, go to terminal and start python prompt
 # then enter - import scapy.all as scapy   and the enter scapy.ls(scapy.ARP)
 
-
 import scapy.all as scapy
 import time
 import sys
+
 
 def get_mac(ip):
     arp_request = scapy.ARP(pdst=ip)
